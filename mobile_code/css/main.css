@@ -1,0 +1,14 @@
+
+.container header{
+    text-align: center;
+}
+
+.logo_img{
+    width: 30%;
+    object-fit: contain;
+    float: left;
+}
+
+.tagline{
+    display: inline;
+}
