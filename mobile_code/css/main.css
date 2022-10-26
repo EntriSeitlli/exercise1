@@ -1,14 +1,66 @@
+body,
+html,
+#container {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
 
-.container header{
+#navbar {
+    background-color: #6a6a6a;
+    padding: 20px;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: none;
+    width: auto;
+}
+
+#dropdown {
+    display: none;
+}
+
+#links {
+    margin-top: 40px;
+    display: none;
+}
+
+#links a{
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: #ffffff solid 2px;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#dropdown:checked + label > #links {
+    display: block
+}
+
+#logo {
+    background-image: url("../images/thumbnails/image3.jpg");
     text-align: center;
 }
 
-.logo_img{
+#logo_img {
     width: 30%;
     object-fit: contain;
-    float: left;
+    vertical-align: middle;
+    margin: 30px;
+    filter: drop-shadow(0 0 0.75rem #000000);
 }
 
-.tagline{
-    display: inline;
+#tagline {
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: #000000 1px 0 10px;
+    opacity: 70%;
+    font-size: 2rem;
+    display: inline-block;
 }
