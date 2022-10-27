@@ -8,7 +8,7 @@ html,
 }
 
 #navbar {
-    background-color: #6a6a6a;
+    background-color: #232323;
     padding: 20px;
     color: white;
     font-size: 4rem;
@@ -22,7 +22,6 @@ html,
 }
 
 #links {
-    margin-top: 40px;
     display: none;
 }
 
@@ -63,4 +62,60 @@ html,
     opacity: 70%;
     font-size: 2rem;
     display: inline-block;
+}
+
+#maincontent{
+    padding: 10px;
+}
+
+#maincontent h1{
+    font-size: 4.5rem;
+}
+
+#maincontent p{
+    font-size: 2.8rem;
+}
+
+.activity{
+    text-align: center;
+}
+
+.activity img{
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.activity h3{
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.activity a{
+    text-decoration: none;
+    color: #3647b5;
+}
+
+.activity p{
+    margin: 0;
+}
+
+#info{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #dedede;
+}
+
+#info h3{
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+#info img{
+    width: 40%;
+}
+
+#info p{
+    font-size: 2rem;
 }
