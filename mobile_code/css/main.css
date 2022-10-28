@@ -25,7 +25,7 @@ html,
     display: none;
 }
 
-#links a{
+#links a {
     padding: 10px;
     margin-top: 20px;
     border-bottom: #ffffff solid 2px;
@@ -38,8 +38,15 @@ html,
     text-decoration: none;
 }
 
-#dropdown:checked + label > #links {
+#dropdown:checked+label>#links {
     display: block
+}
+
+#links #desktop {
+    right: 2%;
+    position: absolute;
+    margin: 0;
+    border: none;
 }
 
 #logo {
@@ -64,58 +71,58 @@ html,
     display: inline-block;
 }
 
-#maincontent{
+#maincontent {
     padding: 10px;
 }
 
-#maincontent h1{
+#maincontent h1 {
     font-size: 4.5rem;
 }
 
-#maincontent p{
+#maincontent p {
     font-size: 2.8rem;
 }
 
-.activity{
+.activity {
     text-align: center;
 }
 
-.activity img{
+.activity img {
     width: 70%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.activity h3{
+.activity h3 {
     font-size: 3.5rem;
     margin: 0;
 }
 
-.activity a{
+.activity a {
     text-decoration: none;
     color: #3647b5;
 }
 
-.activity p{
+.activity p {
     margin: 0;
 }
 
-#info{
+#info {
     padding-top: 40px;
     padding-bottom: 10px;
     text-align: center;
     background-color: #dedede;
 }
 
-#info h3{
+#info h3 {
     font-size: 3.5rem;
     margin: 0;
 }
 
-#info img{
+#info img {
     width: 40%;
 }
 
-#info p{
+#info p {
     font-size: 2rem;
 }
