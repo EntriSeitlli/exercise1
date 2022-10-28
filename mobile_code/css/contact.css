@@ -1,4 +1,4 @@
-body{
+body {
     position: relative;
     background-color: #ffffff;
 }
@@ -21,12 +21,14 @@ body{
     text-align: center;
 }
 
-#form h1{
+#form h1 {
     font-size: 6rem;
     margin-top: 0;
 }
 
-#form input,textarea,button{
+#form input,
+textarea,
+button {
     font-family: sans-serif;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-size: 3.5rem;
@@ -39,16 +41,16 @@ body{
     border: none;
 }
 
-#form textarea{
+#form textarea {
     height: 30rem;
 }
 
-#form button{
+#form button {
     background-color: #3e88f8;
     color: #ffffff;
     width: 40%;
 }
 
-#form button:active{
+#form button:active {
     background-color: #316cc6;
 }
