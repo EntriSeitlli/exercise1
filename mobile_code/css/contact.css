@@ -1,26 +1,29 @@
+body{
+    position: relative;
+    background-color: #ffffff;
+}
+
 #contact {
     width: 100%;
-    height: 90%;
-    background-color: #fafafa;
+    top: 5%;
+    padding-bottom: 5%;
+    height: fit-content;
     position: relative;
-    z-index: -1;
 }
 
 #form {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 8px;
+    background-color: #fafafa;
     width: 90%;
-    height:fit-content;
-    position: absolute;
+    margin: auto;
+    border-radius: 8px;
     padding-bottom: 30px;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
 }
 
 #form h1{
     font-size: 6rem;
+    margin-top: 0;
 }
 
 #form input,textarea,button{
@@ -32,6 +35,7 @@
     padding: 30px;
     display: inline-block;
     border-radius: 8px;
+    position: relative;
     border: none;
 }
 
